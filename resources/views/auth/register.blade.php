@@ -4,7 +4,7 @@
 
 
     <!-- start hero section -->
-    <section id="home" class="no-padding parallax mobile-height md-position-relative wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('images/homepage-9-parallax-img5.jpg');" >
+    <section id="home" class="no-padding parallax  md-position-relative wow fadeIn" data-stellar-background-ratio="0.5" style="background-image:url('images/homepage-9-parallax-img5.jpg');" >
         <div class="opacity-medium bg-extra-dark-gray display-none md-display-block"></div>
         <div class="container position-relative full-screen">
             <div class="slider-typography">

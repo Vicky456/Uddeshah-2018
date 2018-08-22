@@ -43,7 +43,8 @@
                 </div>
                 <div class="col-lg-2 col-md-2 col-xs-5 sm-width-auto text-right sm-no-padding-left">
                     @auth
-                        <a href="{{ url('/admin') }}" class="btn btn-small btn-rounded btn-transparent-white inner-link">{{\Illuminate\Support\Facades\Auth::user()->name}} Dashboard</a>
+                        <a href="{{ url('/admin') }}" class="hidden-md hidden-lg btn btn-small btn-rounded btn-transparent-white inner-link">{{\Illuminate\Support\Facades\Auth::user()->name}}</a>
+                        <a href="{{ url('/admin') }}" class="hidden-xs btn btn-small btn-rounded btn-transparent-white inner-link">{{\Illuminate\Support\Facades\Auth::user()->name}} Dashboard</a>
 
                     @else
                         <a target="_self" class="btn btn-very-small btn-rounded btn-white box-shadow-dark" href="{{ route('login') }}">Login</a>

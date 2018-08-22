@@ -3363,7 +3363,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 /* counter box style 5 */
 .counter-box-5 .counter-box {display: inline-block; width: 13%; padding: 0; vertical-align: top; text-align: center; position: relative;} 
 .counter-box-5 .counter-box .number {display: block; font-weight: 400; font-size: 80px; line-height: 80px; letter-spacing: -3px}
-.counter-box-5 .counter-box span {font-weight: 400; font-size: 12px; letter-spacing: 1px; opacity: 0.5; line-height: 28px; text-transform: uppercase;}
+.counter-box-5 .counter-box span {font-weight: 400; font-size: 12px; letter-spacing: 1px; opacity: 1.0; line-height: 28px; text-transform: uppercase;}
 
 /* skillbar bar style 1  */
 .skillbar-bar-style1 .skillbar { position: relative; display: inline-block; margin: 35px 0 10px; background: rgba(0,0,0,.15); height: 5px; width: 88%; border-radius: 10px; text-align: left; }

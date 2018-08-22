@@ -1,10 +1,10 @@
-
-
-
-
-        <!doctype html>
+<!doctype html>
 <html class="no-js" lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+
     <!-- title -->
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -39,12 +39,31 @@
     <!--[if IE]>
     <script src="js/html5shiv.js"></script>
 
-    <style>
+
+
+    <![endif]-->
+
+    <style type="text/css">
         .one-third-screen {
             height: 780px;
         }
+
+        .clo{
+            transform: scale(1);
+        }
+        @media (min-width: 600px) {
+            .clo{
+                transform: scale(1);
+            }
+        }
+        @media only screen and (min-width: 600px) {
+
+            .clo{
+                transform: scale(2.5);
+            }
+        }
     </style>
-    <![endif]-->
+    @yield('style')
 </head>
 <body>
 
